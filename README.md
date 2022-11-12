@@ -30,7 +30,7 @@ You will see a message "Express server started at port : 3000"
 
 * now you will redirected to "http://localhost:3000/book/list" where you can list all the book you want with author name, year, number of copies available & here you can delete, update or go back to previous page
 
-c </br>now you will redirected to "http://localhost:3000/book/list" where you can list all the book you want 
+* now you will redirected to "http://localhost:3000/book/list" where you can list all the book you want 
 with author name, year, number of copies available & here you can delete, update or go back to previous page
 
 ![Alt](Images/list.PNG)
