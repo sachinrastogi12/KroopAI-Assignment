@@ -1,0 +1,26 @@
+<h3><a class="btn btn-secondary" href="/book"><i class="fa fa-plus"></i> New Book</a> Collection</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Book Name</th>
+            <th>Author Name</th>
+            <th>Year of Publication</th>
+            <th>Number of Copies Available</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+        <tr>
+            <td>{{this.bookName}}</td>
+            <td>{{this.author}}</td>
+            <td>{{this.year}}</td>
+            <td>{{this.copies}}</td>
+            <td>
+                <a href="/book/{{this._id}}"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
+                <a href="/book/delete/{{this._id}}" onclick="return confirm('Are you sure to delete this record ?');"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
