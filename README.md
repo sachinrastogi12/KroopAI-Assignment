@@ -1,13 +1,13 @@
-# KroopAI-Assignment
+## KroopAI-Assignment
 * pacakeges installed - created npm init to get .json file
 * now install the following packages - express, mongoose, express handlebars, nodemon
 
-# Create Database
+### Create Database
 
 * Database Name : bookDB
 * Collection Name : books
 
-# Make Connection
+### Make Connection
 
   Models->db.js
        
