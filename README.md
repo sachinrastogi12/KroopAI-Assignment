@@ -22,7 +22,7 @@
 You will see a message "Express server started at port : 3000"
 * so now open "http://localhost:3000" you will see 'Cannot GET /' i.e. everythings is completely fine
 
-![Alt](Images/cannot.PNG)
+
 
 * now open "http://localhost:3000/book" here at this port you can add books as much as you want and press submit
 
