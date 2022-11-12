@@ -21,9 +21,16 @@
 
 You will see a message "Express server started at port : 3000"
 a </br> so now open "http://localhost:3000" you will see 'Cannot GET /' i.e. everythings is completely fine
+
+![Alt](Images/kroop%20cannot%20get.PNG)
+
 b </br> now open "http://localhost:3000/book" here at this port you can add books as much as you want and press submit
-c </br>now you will redirected to "http://localhost:3000/book/list" where you can list all the book you want with author name, year, number of copies available & here you can delete, update or go back to previous page
 
+![Alt](Images/book.PNG)
 
+c </br>now you will redirected to "http://localhost:3000/book/list" where you can list all the book you want 
+with author name, year, number of copies available & here you can delete, update or go back to previous page
+
+![Alt](Images/list.PNG)
 
 
