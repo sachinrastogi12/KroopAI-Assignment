@@ -6,20 +6,20 @@
 -> npm start
 
 You will see a message "Express server started at port : 3000"
-->so now open "http://localhost:3000" you will see 'Cannot GET /' i.e. everythings is completely fine
-->now open "http://localhost:3000/book" here at this port you can add books as much as you want and press submit
-->now you will redirected to "http://localhost:3000/book/list" where you can list all the book you want with author name, year, number of copies available & here you can delete, update or go back to previous page
+A). so now open "http://localhost:3000" you will see 'Cannot GET /' i.e. everythings is completely fine
+B). now open "http://localhost:3000/book" here at this port you can add books as much as you want and press submit
+C). now you will redirected to "http://localhost:3000/book/list" where you can list all the book you want with author name, year, number of copies available & here you can delete, update or go back to previous page
 
 
 
 # KroopAI-Assignment
-pacakeges installed - created npm init to get .json file
-now install the following packages - express, mongoose, express handlebars, nodemon
+1. pacakeges installed - created npm init to get .json file
+2. now install the following packages - express, mongoose, express handlebars, nodemon
 
 # Create Database
 
-Database Name : bookDB
-Collection Name : books
+1. Database Name : bookDB
+2. Collection Name : books
 
 #Make Connection
 Models->db.js
